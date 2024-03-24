@@ -6,11 +6,11 @@
 
 > sudo docker ps
 
-> sudo docker stop <ID>
+> sudo docker stop ID
 
-> docker login -u "email" -p "password" docker.io
+> sudo docker login -u "email" -p "password" docker.io
 
-> docker push bohdaq/rws:latest
+> sudo docker push bohdaq/rws:latest
 
 > sudo kubectl delete -f create-rws-instance.yml
 
