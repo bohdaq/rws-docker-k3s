@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: rws-pod
+spec:
+   hostNetwork: true
+   containers:
+   - name: rws-container
+     image: bohdaq/rws
+     ports:
+     - containerPort: 7878
